@@ -1,0 +1,10 @@
+---
+image: ruby:2.5.1-stretch
+
+shell: /bin/bash
+
+variables:
+  USER: $USER
+
+bootstrap:
+- gem install travis
